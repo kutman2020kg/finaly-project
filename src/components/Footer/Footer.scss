@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+}
+.main-footer {
+    width: 1920px;
+    height: 450px;
+    background: rgb(24, 24, 24);
+    color: white;
+    padding-top: 52px;
+    .head1{
+        h3{
+            color: rgb(227, 170, 85);
+font-family: Playfair Display;
+font-size: 19px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 25px;
+        }
+        .zakaz-zvonok {
+            color: rgb(250, 184, 91);
+font-family: Gotham Pro;
+font-size: 11px;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 1px;
+text-align: left;
+text-transform: uppercase;
+        }
+        li{
+            margin-top: 10px;
+            color: rgb(187, 187, 187);
+font-family: Gotham Pro;
+font-size: 19px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+cursor: pointer;
+&:hover{
+    color: rgb(216, 195, 73);
+}
+        }
+    }
+    .botom-footer {
+        display: flex;
+        justify-content: center;
+        gap: 75px;
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+        p{
+            color: rgb(187, 187, 187);
+font-family: Gotham Pro;
+font-size: 19   px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+        }
+    }
+}
+
+.head-footer {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 287px;
+    margin-right: 374px;
+    padding-top: 52px;
+    bottom: 98.5px;
+
+    .web-icons{
+        margin-top: 43px;
+        display: flex;
+        gap: 20px;
+    }
+    
+    li{
+        list-style: none;
+    }
+    .head-img {
+        margin-top: 25px;
+        display: flex;
+        gap: 8px;
+        .head-icon {
+            width: 59px;
+            height: 35px;
+            background-color: white;
+        }
+        .img{
+        }
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head-hr {
+    padding: 0;
+    width: 1915px;
+    border: 1px solid rgb(51, 51, 51);
+}

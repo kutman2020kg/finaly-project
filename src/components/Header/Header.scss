@@ -1,0 +1,134 @@
+
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1920px;
+    height: 80px;
+    background-color: black;
+
+    .b img{
+        margin-left: 220px;
+        margin-top: 15px;
+        width: 120px;
+        height: 28px;
+    }
+
+    .vip img{
+        width: 40px;
+        height: 40px;
+        margin-top: 18px;
+        margin-left: 10px;
+    }
+
+    .texti{
+        margin-left: 30px;
+        font-size: 14px;
+        color: rgb(187, 181, 181);
+        margin-top: 12px;
+    }
+
+    .number{
+        color: #ccc;
+        margin-top: 8px;
+        margin-left: 188px;
+        h2{
+            font-size: 18px;
+        }
+    }
+
+    .call{
+        margin-left: 80px;
+        margin-top: 15px;
+
+        button{
+            background-color: black;
+            color: rgb(227, 170, 85);
+            font-size: 24px;
+            box-sizing: border-box;
+            border: 1px solid rgb(68, 61, 51);
+        }
+        
+    }
+    .op{
+        position: absolute;
+        margin-left: 1300px;
+        margin-top: 15px;
+
+        select{
+            background-color: black;
+            color: gold;
+            border: none;
+        }
+    }
+
+    .register{
+        color: #ccc;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 300px;
+
+        img{
+            width: 18px;
+            margin-left: 20px;
+        }
+    }
+}
+
+.header-home{
+    width: 1920px;
+    height: 60px;
+    margin-top: -18px;
+    border: rgb(46, 45, 45);
+    background-color: none;
+    ul{
+    display: flex;
+    }
+    li{
+    position: relative;
+    margin-left: 90px;
+    margin-top: 20px;
+    list-style: none;
+    color: white;
+    font-weight: 700;
+    &:hover {
+        color: black;
+        font-family: Gotham Pro;
+        background-color: goldenrod;
+        box-shadow:0px 2px 16px 5px  rgb(255, 247, 21);
+        border-radius: 8px;
+    }
+    }
+    img{
+        margin-left: 165px;
+        margin-top: 24px;
+        position: absolute;
+    }
+    .inputs{
+        input{
+            background-color: transparent;
+            position: relative;
+            width: 140px;
+            height: 30px;
+            margin-top: 12px;
+            margin-left: 170px;
+            border: none; 
+            border-radius: 8px;
+            outline: none;
+            color: rgb(255, 251, 0);
+        }
+    }
+    .sear{
+            img{
+                position: absolute;
+                width: 12px;
+                height: 14px;
+                margin-top: 22px;
+                margin-left: 150px;
+            }
+    }
+}
