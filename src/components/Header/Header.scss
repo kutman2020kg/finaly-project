@@ -87,6 +87,10 @@ body{
     background-color: none;
     ul{
     display: flex;
+
+    a{
+        text-decoration: none;
+    }
     }
     li{
     position: relative;

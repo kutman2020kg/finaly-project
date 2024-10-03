@@ -33,16 +33,17 @@ export const myRouter = createBrowserRouter([
           path: "service",
           element: <Service/>,
         },
-        {
-          path: "project",
-          element: <Project/>,
-        },
+        
         {
           path: "cooperation",
           element: <Cooperation/>,
         }
       ],
     },
+    {
+          path: "project",
+          element: <Project/>,
+        },
   ]);
   
 

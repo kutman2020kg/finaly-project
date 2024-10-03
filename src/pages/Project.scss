@@ -1,0 +1,33 @@
+.wrap{
+    text-align: center;
+    .project{
+        h1{
+            font-size: 60px;
+        }
+        img{
+            width: 300px;
+        }
+        ul{
+            text-align: center;
+            display: flex;
+            margin-left: 400px;
+
+            a{
+                text-decoration: none;
+            }
+        }
+        li{
+            list-style: none;
+            margin-left: 120px;
+            color: black;
+            font-size: 15px;
+            font-weight: 500;
+            &:hover{
+                border: 2px solid goldenrod;
+                border-radius: 4px;
+                color: goldenrod;
+                height: 20px;
+            }
+        }
+    }
+}
