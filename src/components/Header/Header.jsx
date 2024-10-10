@@ -47,7 +47,7 @@ function Header() {
           <Link to="/"><li>Каталог товаров</li></Link>
           <Link to="/project"><li>Проекты</li></Link>
           <li>Как купить</li>
-          <Link to="/servis"><li>Новости</li></Link>
+          <Link to="/service"><li>Новости</li></Link>
           <Link to="/about"><li>О компании</li></Link>
           <Link to="/cooperation"><li>Сотрудничество</li></Link>
           <Link to="/contact"><li>Контакты</li></Link>

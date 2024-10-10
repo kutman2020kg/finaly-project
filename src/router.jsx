@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Service from "./pages/Service";
 import Project from "./pages/Project";
 import Cooperation from "./pages/Cooperation";
+import NotFound from "./pages/NotFound";
 
 export const myRouter = createBrowserRouter([
     {
@@ -31,12 +32,15 @@ export const myRouter = createBrowserRouter([
         },
         {
           path: "service",
-          element: <Service/>,
+          element: <Service/>
         },
-        
         {
           path: "cooperation",
           element: <Cooperation/>,
+        },
+        {
+          path: "notFound",
+          element: <NotFound/>
         }
       ],
     },

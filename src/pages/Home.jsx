@@ -22,15 +22,15 @@ import right from ".././assets/svg/right.svg"
 import homeLogo from ".././assets/image/home-logo.png"
 import hIcon from ".././assets/svg/home-icon.svg"
 
+import cnop from "../assets/image/cnop.png"
 import krut from ".././assets/image/krut.png"
-// import stul from "../../pages/image/stul.png"
-// import cnop from "../../assets/cnop.svg"
-// import bil1 from "../../pages/image/bil1.png"
-// import bil2 from "../../pages/image/bil2.png"
-// import bil3 from "../../pages/image/bil3.png"
-// import bil4 from "../../pages/image/bil4.png"
-// import bil5 from "../../pages/image/bil5.png"
-// import bil6 from "../../pages/image/bil6.png"
+import stul from "../assets/image/stul.png"
+import bil1 from "../assets/image/bil1.png"
+import bil2 from "../assets/image/bil2.png"
+import bil3 from "../assets/image/bil3.png"
+import bil4 from "../assets/image/bil4.png"
+import bil5 from "../assets/image/bil5.png"
+import bil6 from "../assets/image/bil6.png"
 
 function Home() {
   return (
@@ -54,7 +54,8 @@ function Home() {
     </div>
     <div className='table'>
         <div className='stul'>
-            {/* <img src={stul} alt="" /> */}
+          <img className='cnop' src={cnop} alt="" />
+            <img className='stul' src={stul} alt="" />
             <h2>Готовые решения </h2>
             <h6>Наборы мебели и игрового инвентаря <br />
             для бильярдной и игровой комнаты.</h6>
@@ -62,32 +63,32 @@ function Home() {
         <div className='box'>
             <h1>Категории <br />
             каталога</h1>
-            <hr />
-            {/* <img src={cnop} alt="" /> */}
+            <img src={line} alt="" />
+            <button>Весь каталог</button>
         </div>
             <div className='bil'>
             <div className='fil'>
-            {/* <img src={bil1} alt="" /> */}
+            <img src={bil1} alt="" />
             <p>Бильярдные столы</p>
             </div>
             <div className='fil'>
-            {/* <img src={bil2} alt="" /> */}
+            <img src={bil2} alt="" />
             <p>Бильярдные кии</p>
             </div>
             <div className='fil'>
-            {/* <img src={bil3} alt="" /> */}
+            <img src={bil3} alt="" />
             <p>Киевницы</p>
             </div>
             <div className='fil'>
-            {/* <img src={bil4} alt="" /> */}
+            <img src={bil4} alt="" />
             <p>Бильярдные шары</p>
             </div>
             <div className='fil'>
-            {/* <img src={bil5} alt="" /> */}
+            <img src={bil5} alt="" />
             <p>Треугольники</p>
             </div>
             <div className='fil'>
-            {/* <img src={bil6} alt="" /> */}
+            <img src={bil6} alt="" />
             <p>Светильники</p>
             </div>
             </div>
@@ -108,7 +109,6 @@ function Home() {
         <img className='home-im' src={homeImg1} alt="" />
         <img className='home-im' src={homeImg2} alt="" />
         <img className='home-im' src={homeImg3} alt="" />
-      </div>
         <div className='img-inp'>
           <h1>Не знаете, что вам <br />
           подойдет?</h1>
@@ -129,6 +129,7 @@ function Home() {
             </div>
           <button className='home-btn'>Получить консультацию</button>
         </div>
+      </div>
         <div className='comp-sifra container'>
           <img className='sifra-img1' src={companyS1} alt="" />
           <img className='sifra-img2' src={companyS2} alt="" />
@@ -159,7 +160,7 @@ function Home() {
           </div>
         </div>
         <div className='h-footer container'>
-          <img className='h-fon' src={hFooter} alt="" />
+          <img className='h-fon' src={hFooter} alt="" />  
           <img className='vectorl' src={left} alt="" />
           <img className='h-logo' src={homeLogo} alt="" />
           <img className='vectorr' src={right} alt="" />
